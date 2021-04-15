@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // define to your liking
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "paths": {
+      "~/*": ["./*"],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ] // Optional
+}

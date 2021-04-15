@@ -1,0 +1,14 @@
+{
+    "singleQuote": true,
+    "trailingComma": "all",
+    "jsxBracketSameLine": false,
+    "printWidth": 100,
+    "overrides": [
+        {
+            "files": ["*.json", ".prettierrc"],
+            "options": {
+                "tabWidth": 4
+            }
+        }
+    ]
+}

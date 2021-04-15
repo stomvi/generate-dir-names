@@ -1,0 +1,44 @@
+{
+    "name": "generate-dir-names",
+    "version": "0.1.0",
+    "description": "Randomly generate directory names by letter length and hierarchy depth",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/stomvi/generate-dir-names.git"
+    },
+    "keywords": [
+        "generate",
+        "random",
+        "dir"
+    ],
+    "author": "Stomvi",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/stomvi/generate-dir-names/issues"
+    },
+    "homepage": "https://github.com/stomvi/generate-dir-names#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.13.14",
+        "@babel/core": "^7.13.14",
+        "@babel/eslint-parser": "^7.13.14",
+        "@babel/node": "^7.13.13",
+        "@babel/plugin-proposal-optional-chaining": "^7.13.12",
+        "@babel/preset-env": "^7.13.15",
+        "@types/node": "^14.14.37",
+        "babel-plugin-module-resolver": "^4.1.0",
+        "eslint": "^7.23.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-import-resolver-babel-module": "^5.2.0",
+        "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-prettier": "^3.3.1",
+        "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "uuid": "^8.3.2"
+    }
+}
