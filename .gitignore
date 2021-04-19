@@ -41,3 +41,5 @@ todo.md
 # copy, test
 *copy.*
 test*.*
+
+/dist

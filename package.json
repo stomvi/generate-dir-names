@@ -2,9 +2,11 @@
     "name": "generate-dir-names",
     "version": "0.1.0",
     "description": "Randomly generate directory names by letter length and hierarchy depth",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --build",
+        "prepublish": "npm run build"
     },
     "repository": {
         "type": "git",
@@ -13,10 +15,11 @@
     "keywords": [
         "generate",
         "random",
+        "directory",
         "dir"
     ],
     "author": "Stomvi",
-    "license": "ISC",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/stomvi/generate-dir-names/issues"
     },
@@ -36,7 +39,8 @@
         "eslint-import-resolver-babel-plugin-root-import": "^1.1.1",
         "eslint-plugin-import": "^2.22.1",
         "eslint-plugin-prettier": "^3.3.1",
-        "prettier": "^2.2.1"
+        "prettier": "^2.2.1",
+        "typescript": "^4.2.4"
     },
     "dependencies": {
         "uuid": "^8.3.2"
