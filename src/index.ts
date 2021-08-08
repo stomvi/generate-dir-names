@@ -1,8 +1,8 @@
-import { v4 as uuidv4 } from 'uuid';
+import uuid from 'uuid-random';
 
 const generateDirNames = (params) => {
   const { depth = 1, length = 2 } = params || {};
-  const random = uuidv4().replace(/-/g, '');
+  const random = uuid().replace(/-/g, '');
   let d = depth;
   let l = length;
 

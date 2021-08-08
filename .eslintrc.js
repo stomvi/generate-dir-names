@@ -1,9 +1,13 @@
 module.exports = {
   parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+  },
   env: {
     browser: true,
     node: true,
     es6: true,
+    'jest/globals': true,
   },
   extends: [
     'eslint:recommended',
@@ -11,10 +15,13 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:prettier/recommended',
   ],
-  plugins: ['import', 'prettier'],
+  plugins: ['import', 'prettier', 'jest'],
   settings: {
     'import/resolver': {
       'babel-module': {},
+      node: {
+        extensions: ['.js', '.ts'],
+      },
     },
   },
   rules: {
