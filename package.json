@@ -1,6 +1,6 @@
 {
     "name": "generate-dir-names",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Randomly generate directory names by letter length and hierarchy depth",
     "main": "dist/index.js",
     "scripts": {
