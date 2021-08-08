@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const generateDirNames = ({ depth = 1, length = 2 }) => {
+const generateDirNames = (params) => {
+  const { depth = 1, length = 2 } = params || {};
   const random = uuidv4().replace(/-/g, '');
   let d = depth;
   let l = length;
